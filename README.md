@@ -40,3 +40,5 @@ _**Importing a workflow from Github**_
 	* Verify the target is set to 'AWS_Target' at the workflow level
 	* Verify the workflow is defined as a Response workflow
 	* 
+
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/10421515/167260694-43250513-e132-48bf-bbb8-740c023a13cb.png">
