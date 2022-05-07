@@ -39,6 +39,22 @@ _**Importing a workflow from Github**_
 	* Replace the variable for 'observable_value' to match your pod above.
 	* Verify the target is set to 'AWS_Target' at the workflow level
 	* Verify the workflow is defined as a Response workflow
-	* 
 
 <img width="571" alt="image" src="https://user-images.githubusercontent.com/10421515/167260694-43250513-e132-48bf-bbb8-740c023a13cb.png">
+
+Note the activites in this workflow that automate many of the steps outlined in the AWS EC2 Incident Response Guide.
+
+1) Enables Termination Protection on the instance
+2) Sets a restricted Security Group limiting access
+3) Removes it from any Auto Scaling Groups
+4) Removes it from any Elastic Load Balancers
+5) Snapshots connected Elastic Block Storage devices
+6) Tags the instance with IR details
+
+Run your imported workflow. 
+
+Return to your created workflow that pulls instance details.
+
+Note the differences to your instance.
+
+_**Integration with SecureX threat response**_
