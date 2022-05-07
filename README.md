@@ -15,7 +15,7 @@ _**Creating Your First AWS Activity**_
 
 API Reference: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeInstances.html
 
-1) https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value Below}&Version=2016-11-15
+1) https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15
 
 Pod 1: 172.31.31.233 <br />
 Pod 2: 172.31.22.192 <br />
