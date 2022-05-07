@@ -58,3 +58,9 @@ Return to your created workflow that pulls instance details.
 Note the differences to your instance.
 
 _**Integration with SecureX threat response**_
+
+<img width="1398" alt="image" src="https://user-images.githubusercontent.com/10421515/167261531-68659cca-c8b5-4f04-b320-221f9afc36e1.png">
+
+<img width="484" alt="image" src="https://user-images.githubusercontent.com/10421515/167261584-3b5fca36-71c0-44c3-bee5-423067f8c7f5.png">
+
+
