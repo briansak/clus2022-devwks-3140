@@ -22,6 +22,19 @@
       {
         "schema_id": "datatype.string",
         "properties": {
+          "value": "172.31.31.233",
+          "scope": "local",
+          "name": "observable_value",
+          "type": "datatype.string",
+          "is_required": false,
+          "is_invisible": false
+        },
+        "unique_name": "variable_workflow_01R8H88VK82F85NCLphDvDQay6ATWA3sfHW",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
           "value": "sg-048e670e5aa6a49f1",
           "scope": "local",
           "name": "Isolation_SG",
@@ -43,19 +56,6 @@
           "is_invisible": false
         },
         "unique_name": "variable_workflow_01R8H88VK7VLP29UKK488GsNLcMqW8RKN3L",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "172.31.31.233",
-          "scope": "local",
-          "name": "observable_value",
-          "type": "datatype.string",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01R8H88VK82F85NCLphDvDQay6ATWA3sfHW",
         "object_type": "variable_workflow"
       }
     ],
@@ -103,8 +103,7 @@
               "description": "Gets additional information from the running instance.",
               "display_name": "Get Instance Details",
               "runtime_user": {
-                "override_target_runtime_user": true,
-                "runtime_user_id": "definition_runtime_user_01MEBNQ09AM896Efaxlt8hS0x9DqHtATuEb"
+                "target_default": true
               },
               "skip_execution": false,
               "target": {
