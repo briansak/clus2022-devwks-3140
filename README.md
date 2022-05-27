@@ -17,7 +17,13 @@ API Reference: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_Descri
 
 Create a new activity that will provide the details of an EC2 instance, following the example presented.
 
-1) https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15
+1) Create a **New Workflow**
+2) Drag AWS Service --> Generic AWS API Request to the canvas
+3) Name the activity **Query EC2 Instance** in the activity Display Name
+4) Override the workflow target with: **AWS_Endpoint**
+5) Specify the URL near the bottom of the activity properties with:
+> https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15
+Using the IP address associated with your pod number below.
 
 Pod 1: 172.31.31.233 <br />
 Pod 2: 172.31.22.192 <br />
@@ -31,6 +37,8 @@ Pod 9: <br />
 Pod 10: <br />
 Pod 11: <br />
 Pod 12: <br />
+
+6) Click on the "Start" element in the workflow and customize the workflow "Display Name" to **Query EC2 Instance -- [your name]**
 
 _**Importing a workflow from Github**_
 
