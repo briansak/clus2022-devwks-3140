@@ -22,8 +22,8 @@ Create a new activity that will provide the details of an EC2 instance, followin
 3) Name the activity **Query EC2 Instance** in the activity Display Name
 4) Override the workflow target with: **AWS_Endpoint**
 5) Specify the URL near the bottom of the activity properties with:
-> https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15 <br />
-Using the IP address associated with your pod number below.
+> https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15 <br /> <br />
+Replacing "{Value_Below}" with the IP address associated with your pod in the table below.
 
 Pod 1: 172.31.31.233 <br />
 Pod 2: 172.31.22.192 <br />
