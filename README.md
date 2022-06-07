@@ -86,10 +86,10 @@ Note the activites in this workflow that automate many of the steps outlined in 
 
 1) Click **Dashboard** at the top of the SecureX Window to exit out of the Orchestration tool.
 2) Expand the **Ribbon** at the bottom of the screen to see created casebooks and incidents for this environment.
+3) Find the **DEVWKS-3140** Casebook created "By Others" by searching for '3140' in the casebook pane.
 
 <img width="705" alt="image" src="https://user-images.githubusercontent.com/10421515/172470194-b99a5776-7c1d-43f3-8b55-434f2b7ee5f7.png">
 
-3) Find the **DEVWKS-3140** Casebook created "By Others" by searching for '3140' in the casebook pane.
 4) Click **Investigate in Threat Response** located on the right-hand side of the Casebook drawer.
 
 <img width="481" alt="image" src="https://user-images.githubusercontent.com/10421515/172470596-621aea40-313a-4f1b-8d4b-529e0bf7c6c9.png">
