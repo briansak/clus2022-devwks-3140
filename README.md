@@ -19,8 +19,17 @@ Create a new activity that will provide the details of an EC2 instance, followin
 
 1) Create a **New Workflow**
 2) Drag AWS Service --> Generic AWS API Request to the canvas
+
+<img width="458" alt="image" src="https://user-images.githubusercontent.com/10421515/172461098-a35c7d45-981b-4d25-a4fb-b30778a09e2b.png">
+
 3) Name the activity **Query EC2 Instance** in the activity Display Name
+
+<img width="156" alt="image" src="https://user-images.githubusercontent.com/10421515/172461171-c7ca628e-90ad-4cd2-9570-fc21309eb703.png">
+
 4) Override the workflow target with: **AWS_Target**
+
+<img width="170" alt="image" src="https://user-images.githubusercontent.com/10421515/172462522-b3bd48ac-1bff-40b2-9048-4daae961d370.png">
+
 5) Specify the URL near the bottom of the activity properties with:
 > https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15 <br /> <br />
 Replacing "{Value_Below}" with the IP address associated with your pod in the table below.
@@ -39,6 +48,10 @@ Pod 11: <br />
 Pod 12: <br />
 
 6) Click on the "Start" element in the workflow and customize the workflow "Display Name" to **Query EC2 Instance -- [your name]**
+
+After running this activity, you should see the details of the instance that you queried in the output body.
+
+<img width="568" alt="image" src="https://user-images.githubusercontent.com/10421515/172463129-832578dd-6891-49f4-8d85-201fbac1179a.png">
 
 _**Importing a workflow from Github**_
 
