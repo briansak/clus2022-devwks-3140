@@ -71,12 +71,12 @@ After running this activity, you should see the details of the instance that you
 
 Note the activites in this workflow that automate many of the steps outlined in the AWS EC2 Incident Response Guide.
 
-> *Enables Termination Protection on the instance
-> *Sets a restricted Security Group limiting access
-> *Removes it from any Auto Scaling Groups
-> *Removes it from any Elastic Load Balancers
-> *Snapshots connected Elastic Block Storage devices
-> *Tags the instance with IR details
+> * Enables Termination Protection on the instance
+> * Sets a restricted Security Group limiting access
+> * Removes it from any Auto Scaling Groups
+> * Removes it from any Elastic Load Balancers
+> * Snapshots connected Elastic Block Storage devices
+> * Tags the instance with IR details
 
 2) Run your imported workflow.
 3) Return to your previously created workflow **Query EC2 Instance** that pulls instance details.
