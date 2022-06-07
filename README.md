@@ -8,7 +8,7 @@ AWS: https://docs.aws.amazon.com <br />
 GCP: https://cloud.google.com/compute/docs/reference/rest/v1 <br />
 Azure: https://docs.microsoft.com/en-us/rest/api/azure <br />
 
-_**Creating Your First AWS Activity**_
+### Creating Your First AWS Activity
 
 > **SHARED ENVIRONMENT ALERT** <br />
 > Make sure you uniquely name your workflow when creating!
@@ -57,7 +57,7 @@ After running this activity, you should see the details of the instance that you
 
 <img width="568" alt="image" src="https://user-images.githubusercontent.com/10421515/172463129-832578dd-6891-49f4-8d85-201fbac1179a.png">
 
-_**Importing a workflow from Github**_
+### Importing a workflow from Github
 
 > **SHARED ENVIRONMENT ALERT** <br />
 > Make sure you uniquely name your workflow after importing!
@@ -71,18 +71,16 @@ _**Importing a workflow from Github**_
 
 Note the activites in this workflow that automate many of the steps outlined in the AWS EC2 Incident Response Guide.
 
-1) Enables Termination Protection on the instance
-2) Sets a restricted Security Group limiting access
-3) Removes it from any Auto Scaling Groups
-4) Removes it from any Elastic Load Balancers
-5) Snapshots connected Elastic Block Storage devices
-6) Tags the instance with IR details
+> *Enables Termination Protection on the instance
+> *Sets a restricted Security Group limiting access
+> *Removes it from any Auto Scaling Groups
+> *Removes it from any Elastic Load Balancers
+> *Snapshots connected Elastic Block Storage devices
+> *Tags the instance with IR details
 
-Run your imported workflow. 
-
-Return to your created workflow that pulls instance details.
-
-Note the differences to your instance.
+2) Run your imported workflow.
+3) Return to your previously created workflow **Query EC2 Instance** that pulls instance details.
+4) Note the differences to your instance.
 
 _**Integration with SecureX threat response**_
 
