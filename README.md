@@ -1,6 +1,8 @@
 ## DEVWKS-3140 <br /> Using SecureX orchestration for Automating Public Cloud Incident Response and Remediation
 
 ### Lab Environment: https://dcloud.cisco.com/expo/8siwn1lhagtjgyduf33tv7fpn
+> **USE INCOGNITO MODE/PRIVATE WINDOW**
+
 <img width="472" alt="image" src="https://user-images.githubusercontent.com/10421515/167255166-77d523d5-737d-4bce-a6ba-8e09d39750c6.png">
 
 _**IaaS API Documentation**_ <br />
