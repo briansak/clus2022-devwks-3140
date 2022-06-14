@@ -20,7 +20,10 @@ API Reference: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_Descri
 Create a new activity that will provide the details of an EC2 instance, following the example presented.
 
 1) Create a **New Workflow**
-2) Drag AWS Service --> Generic AWS API Request to the canvas
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173708449-fbad4207-16f6-488c-860f-1fdceeed8fc5.png">
+
+3) Drag AWS Service --> Generic AWS API Request to the canvas
 
 <img width="458" alt="image" src="https://user-images.githubusercontent.com/10421515/172461098-a35c7d45-981b-4d25-a4fb-b30778a09e2b.png">
 
