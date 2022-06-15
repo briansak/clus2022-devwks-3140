@@ -35,7 +35,7 @@ Create a new activity that will provide the details of an EC2 instance, followin
 5) Specify the URL near the bottom of the activity properties with:
 
 ```
-https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15
+https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=private-ip-address&Filter.1.Value={Value_Below}&Version=2016-11-15
 ```
 Replacing "{Value_Below}" with the IP address associated with your pod in the table below and set the API Method to **GET**.
 
