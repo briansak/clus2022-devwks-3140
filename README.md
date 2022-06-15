@@ -111,16 +111,17 @@ Note the activites in this workflow that automate many of the steps outlined in 
 
 1) Click **Dashboard** at the top of the SecureX Window to exit out of the Orchestration tool.
 
+2) Expand the **Ribbon** at the bottom of the screen to see created casebooks and incidents for this environment.
+3) Find the **DEVWKS-3140** Casebook created "By Others" by searching for '3140' in the casebook pane.
 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173712534-64a1dda1-8761-4632-8cc8-99139ee1c133.png">
 
-3) Expand the **Ribbon** at the bottom of the screen to see created casebooks and incidents for this environment.
-4) Find the **DEVWKS-3140** Casebook created "By Others" by searching for '3140' in the casebook pane.
 
 <img width="705" alt="image" src="https://user-images.githubusercontent.com/10421515/172470194-b99a5776-7c1d-43f3-8b55-434f2b7ee5f7.png">
 
 4) Click **Investigate in Threat Response** located on the right-hand side of the Casebook drawer.
 
-<img width="481" alt="image" src="https://user-images.githubusercontent.com/10421515/172470596-621aea40-313a-4f1b-8d4b-529e0bf7c6c9.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173712656-c4778e87-3b3d-4962-99b7-701186aef572.png">
 
 This will open up a new browser window that contains the results of our investigation into one domain and the AWS internal IP addresses from our lab.
 
