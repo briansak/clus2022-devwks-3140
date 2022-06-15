@@ -23,20 +23,20 @@ Create a new activity that will provide the details of an EC2 instance, followin
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173708449-fbad4207-16f6-488c-860f-1fdceeed8fc5.png">
 
-3) Drag AWS Service --> Generic AWS API Request to the canvas
+2) Drag AWS Service --> Generic AWS API Request to the canvas
 
-<img width="458" alt="image" src="https://user-images.githubusercontent.com/10421515/172461098-a35c7d45-981b-4d25-a4fb-b30778a09e2b.png">
+<img width="1441" alt="image" src="https://user-images.githubusercontent.com/10421515/173708677-0a6d9e16-1661-421d-b23f-1cdc71f78044.png">
 
 3) Name the activity **Query EC2 Instance** in the activity Display Name
-
-<img width="156" alt="image" src="https://user-images.githubusercontent.com/10421515/172461171-c7ca628e-90ad-4cd2-9570-fc21309eb703.png">
-
 4) Override the workflow target with: **AWS_Target**
 
-<img width="170" alt="image" src="https://user-images.githubusercontent.com/10421515/172462522-b3bd48ac-1bff-40b2-9048-4daae961d370.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173708851-fde409ab-e0ae-43b1-b36a-f3e0054896ad.png">
 
 5) Specify the URL near the bottom of the activity properties with:
-> https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15 <br /> <br />
+
+```
+https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15
+```
 Replacing "{Value_Below}" with the IP address associated with your pod in the table below.
 
 Pod 1: 172.31.31.233 <br />
@@ -108,5 +108,3 @@ Once the enrichment of the observables is complete, you should see your IP addre
 5) Use the drop-down to show the SecureX orchestration response actions that can be ran against this host, including the one you imported and uniquely named.
 
 <img width="484" alt="image" src="https://user-images.githubusercontent.com/10421515/167261584-3b5fca36-71c0-44c3-bee5-423067f8c7f5.png">
-
-
