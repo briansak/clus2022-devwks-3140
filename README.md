@@ -52,7 +52,7 @@ Pod 10: <br />
 Pod 11: <br />
 Pod 12: <br />
 
-<img width="574" alt="image" src="https://user-images.githubusercontent.com/10421515/172463557-1f4a9652-d0b0-49d8-b7df-9feaad200395.png">
+<img width="589" alt="image" src="https://user-images.githubusercontent.com/10421515/173710456-a0f3eff7-9b4a-4c71-8db8-505aeb3bb501.png">
 
 6) Click on the "Start" element in the workflow and customize the workflow "Display Name" to **Pod # - Query EC2 Instance**
 
@@ -71,12 +71,25 @@ After running this activity, you should see the details of the instance that you
 > **SHARED ENVIRONMENT ALERT** <br />
 > Make sure you uniquely name your workflow after importing!
 
-1) Open your new workflow and make the following changes: <br />
-	* Replace the variable for 'observable_value' to match your pod above.
-	* Verify the target is set to 'AWS_Target' at the workflow level
-	* Verify the workflow is defined as a Response workflow
+1) Click back to Workflows and choose the **Import** button.
 
-<img width="571" alt="image" src="https://user-images.githubusercontent.com/10421515/167260694-43250513-e132-48bf-bbb8-740c023a13cb.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173710672-bd66daf1-d85d-4586-880c-3007e300f821.png">
+
+2) Choose, Import from **Git**, **DEVWKS-3140** Repo** for Git Repository, **sxo-aws-ir** for File Name, **Updated Keys** for Git Version, and finally **Import as a New Workflow** and click **Import**.
+
+<img width="607" alt="image" src="https://user-images.githubusercontent.com/10421515/173711084-8e9b0220-ee98-4ed0-b482-e52b86f11489.png">
+
+3) After importing, it will show up as **Copy(1)-AWS Incident Response**.  Open this newly created workflow.
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173711264-43a14855-cc98-45f9-85c6-b1c559343c77.png">
+
+2) Open your new workflow and make the following changes: <br />
+
+* Name your workflow **Pod X - AWS Incident Response** replacing the pod number with yours.
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173711715-1849e6ac-150d-4a34-9e1e-dbb02ea800fe.png">
+
+* Replace the variable for 'observable_value' to match your pod above.
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173711852-8d854b7a-7017-4b46-b7cd-3f9abcdd5baf.png">
 
 Note the activites in this workflow that automate many of the steps outlined in the AWS EC2 Incident Response Guide.
 
@@ -88,14 +101,20 @@ Note the activites in this workflow that automate many of the steps outlined in 
 > * Tags the instance with IR details
 
 2) Run your imported workflow.
-3) Return to your previously created workflow **Query EC2 Instance** that pulls instance details.
-4) Note the differences to your instance.
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173712097-05b9094c-e06f-422f-aadf-c88a004e4e52.png">
+
+4) Return to your previously created workflow **Query EC2 Instance** that pulls instance details.
+5) Note the differences to your instance.
 
 ### Integration with SecureX threat response
 
 1) Click **Dashboard** at the top of the SecureX Window to exit out of the Orchestration tool.
-2) Expand the **Ribbon** at the bottom of the screen to see created casebooks and incidents for this environment.
-3) Find the **DEVWKS-3140** Casebook created "By Others" by searching for '3140' in the casebook pane.
+
+
+
+3) Expand the **Ribbon** at the bottom of the screen to see created casebooks and incidents for this environment.
+4) Find the **DEVWKS-3140** Casebook created "By Others" by searching for '3140' in the casebook pane.
 
 <img width="705" alt="image" src="https://user-images.githubusercontent.com/10421515/172470194-b99a5776-7c1d-43f3-8b55-434f2b7ee5f7.png">
 
