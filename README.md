@@ -45,12 +45,12 @@ Pod 3: 172.31.19.34 <br />
 Pod 4: 172.31.28.79 <br />
 Pod 5: 172.31.27.52 <br />
 Pod 6: 172.31.31.163 <br />
-Pod 7: <br />
-Pod 8: <br />
-Pod 9: <br />
-Pod 10: <br />
-Pod 11: <br />
-Pod 12: <br />
+Pod 7: 172.31.92.122 <br />
+Pod 8: 172.31.85.153 <br />
+Pod 9: 172.31.91.202 <br />
+Pod 10: 172.31.83.165 <br />
+Pod 11: 172.31.88.102 <br />
+Pod 12: 172.31.84.240 <br />
 
 <img width="589" alt="image" src="https://user-images.githubusercontent.com/10421515/173710456-a0f3eff7-9b4a-4c71-8db8-505aeb3bb501.png">
 
