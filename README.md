@@ -37,7 +37,7 @@ Create a new activity that will provide the details of an EC2 instance, followin
 ```
 https://ec2.us-east-1.amazonaws.com/?Action=DescribeInstances&Filter.1.Name=instance-id&Filter.1.Value={Value_Below}&Version=2016-11-15
 ```
-Replacing "{Value_Below}" with the IP address associated with your pod in the table below.
+Replacing "{Value_Below}" with the IP address associated with your pod in the table below and set the API Method to **GET**.
 
 Pod 1: 172.31.31.233 <br />
 Pod 2: 172.31.22.192 <br />
@@ -54,9 +54,13 @@ Pod 12: <br />
 
 <img width="574" alt="image" src="https://user-images.githubusercontent.com/10421515/172463557-1f4a9652-d0b0-49d8-b7df-9feaad200395.png">
 
-6) Click on the "Start" element in the workflow and customize the workflow "Display Name" to **Query EC2 Instance -- [your name]**
+6) Click on the "Start" element in the workflow and customize the workflow "Display Name" to **Pod # - Query EC2 Instance**
 
-<img width="519" alt="image" src="https://user-images.githubusercontent.com/10421515/172464069-004d0fca-b2e1-4395-88cf-0a371b8ddeb8.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173709384-ae518382-8d55-4652-a63e-637976a9568a.png">
+
+7. Validate and Run this workflow near the top of the canvas.
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173709797-50d88ba1-9abc-4593-831d-5b08ccc66120.png">
 
 After running this activity, you should see the details of the instance that you queried in the output body.
 
