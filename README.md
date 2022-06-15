@@ -23,7 +23,7 @@ Create a new activity that will provide the details of an EC2 instance, followin
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173708449-fbad4207-16f6-488c-860f-1fdceeed8fc5.png">
 
-2) Drag AWS Service --> Generic AWS API Request to the canvas
+2) Drag **AWS Service** --> **Generic AWS API Request** to the canvas
 
 <img width="1441" alt="image" src="https://user-images.githubusercontent.com/10421515/173708677-0a6d9e16-1661-421d-b23f-1cdc71f78044.png">
 
