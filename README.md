@@ -128,4 +128,4 @@ Once the enrichment of the observables is complete, you should see your IP addre
 
 5) Use the drop-down to show the SecureX orchestration response actions that can be ran against this host, including the one you imported and uniquely named.
 
-<img width="484" alt="image" src="https://user-images.githubusercontent.com/10421515/167261584-3b5fca36-71c0-44c3-bee5-423067f8c7f5.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173713168-a4a55394-ef21-4d51-bb2b-b8939234ca58.png">
