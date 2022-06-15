@@ -75,7 +75,7 @@ After running this activity, you should see the details of the instance that you
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/10421515/173710672-bd66daf1-d85d-4586-880c-3007e300f821.png">
 
-2) Choose, Import from **Git**, **DEVWKS-3140** Repo** for Git Repository, **sxo-aws-ir** for File Name, **Updated Keys** for Git Version, and finally **Import as a New Workflow** and click **Import**.
+2) Choose, Import from **Git**, **DEVWKS-3140 Repo** for Git Repository, **sxo-aws-ir** for File Name, **Updated Keys** for Git Version, and finally **Import as a New Workflow** and click **Import**.
 
 <img width="607" alt="image" src="https://user-images.githubusercontent.com/10421515/173711084-8e9b0220-ee98-4ed0-b482-e52b86f11489.png">
 
